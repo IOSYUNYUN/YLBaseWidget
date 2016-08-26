@@ -33,12 +33,12 @@
       <Extensions>cpp;moc</Extensions>
       <SourceControlFiles>False</SourceControlFiles>
     </Filter>
+    <Filter Include="YLBaseWidget">
+      <UniqueIdentifier>{663b449d-def4-49ab-8caa-2c526d7e9da0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="basewidget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_basewidget.cpp">
@@ -50,6 +50,18 @@
     <ClCompile Include="GeneratedFiles\qrc_basewidget.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_YLBaseWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_YLBaseWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="basewidget.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\YLBaseWidget\YLBbaseWidget.cpp">
+      <Filter>YLBaseWidget</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="basewidget.h">
@@ -60,6 +72,9 @@
     </CustomBuild>
     <CustomBuild Include="basewidget.qrc">
       <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\YLBaseWidget\YLBaseWidget.h">
+      <Filter>YLBaseWidget</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>

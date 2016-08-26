@@ -2,9 +2,10 @@
 #define BASEWIDGET_H
 
 #include <QtWidgets/QMainWindow>
-#include "ui_basewidget.h"
+//#include "ui_basewidget.h"
+#include "../YLBaseWidget/YLBaseWidget.h"
 
-class BaseWidget : public QMainWindow
+class BaseWidget : public YLBaseWidget
 {
 	Q_OBJECT
 
@@ -13,7 +14,7 @@ public:
 	~BaseWidget();
 
 private:
-	Ui::BaseWidgetClass ui;
+	//Ui::BaseWidgetClass ui;
 };
 
 #endif // BASEWIDGET_H

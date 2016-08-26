@@ -1,9 +1,10 @@
 #include "basewidget.h"
 
 BaseWidget::BaseWidget(QWidget *parent)
-	: QMainWindow(parent)
+: YLBaseWidget(parent)
 {
-	ui.setupUi(this);
+	//ui.setupUi(this);
+	this->resize(600, 700);
 }
 
 BaseWidget::~BaseWidget()

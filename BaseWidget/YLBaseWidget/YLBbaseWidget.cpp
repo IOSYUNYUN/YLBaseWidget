@@ -5,7 +5,7 @@ YLBaseWidget::YLBaseWidget(QWidget *parent)
 {
 	//窗口的样式
 	setWindowFlags(Qt::FramelessWindowHint);
-	//窗口的属性  关闭时释放内存
+	//窗口的属性  关闭时释放内存  当窗口定义在栈里面时  销毁时会异常
 	setAttribute(Qt::WA_DeleteOnClose);
 }
 
